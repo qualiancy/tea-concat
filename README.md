@@ -2,6 +2,14 @@
 
 > A must faster concat for Arrays
 
+                        two arrays
+        22,378,432 op/s ⨠ concat(arr1, arr2)
+         9,739,072 op/s ⨠ arr1.concat(arr2)
+
+    Suites:  1
+    Benches: 2
+    Elapsed: 2,671.53 ms
+
 ## Installation
 
 ### Node.js
@@ -15,6 +23,22 @@
 `tea-concat` is available as a [component](https://github.com/component/component).
 
     $ component install qualiancy/tea-concat
+
+## Usage
+
+### concat (arr1, arr2)
+
+* **@param** _{Array}_ first array
+* **@param** _{Array}_ second array
+* **@return** _{Array}_  combined
+
+A much faster concat for two arrays.
+Returns a new array.
+
+```js
+var concat = require('tea-concat')
+  , arr = concat([ 1, 2 ], [ 3, 4 ]);
+```
 
 ## License
 
