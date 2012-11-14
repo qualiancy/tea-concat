@@ -1,0 +1,15 @@
+{
+    "name": "tea-concat"
+  , "repo": "qualiancy/tea-concat"
+  , "version": "0.0.0"
+  , "description": "A must faster concat for Arrays"
+  , "license": "MIT"
+  , "keywords": [
+    ]
+  , "main": "lib/concat.js"
+  , "scripts": [
+        "lib/concat.js"
+    ]
+  , "dependencies": {}
+  , "development": {}
+}
