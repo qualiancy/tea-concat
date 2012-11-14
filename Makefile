@@ -24,6 +24,9 @@ test-cov: lib-cov
 lib-cov: clean
 	@jscoverage lib lib-cov
 
+bench:
+	@./node_modules/.bin/matcha
+
 clean:
 	@rm -rf lib-cov
 	@rm -f coverage.html
