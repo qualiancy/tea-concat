@@ -1,7 +1,7 @@
 {
     "name": "tea-concat"
   , "repo": "qualiancy/tea-concat"
-  , "version": "0.0.0"
+  , "version": "0.1.0"
   , "description": "A must faster concat for Arrays"
   , "license": "MIT"
   , "keywords": [
